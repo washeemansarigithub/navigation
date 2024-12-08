@@ -1,0 +1,98 @@
+/* src/components/Footer.css */
+
+.footer {
+    background-color: #4d857d; /* Match the background color in the screenshot */
+    padding: 40px 0;
+    color: #ffffff;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+  }
+  
+  .footer-section {
+    flex: 1;
+    min-width: 200px;
+    padding: 0 20px;
+  }
+  
+  .footer-section h4 {
+    font-weight: bold;
+    margin-bottom: 15px;
+    position: relative;
+  }
+  
+  .footer-section h4::after {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: #ffffff;
+    display: block;
+    margin-top: 5px;
+  }
+  
+  .footer-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-section ul li::before {
+    content: '➤';
+    margin-right: 5px;
+    color: #ffffff;
+  }
+  
+  .subscription {
+    text-align: center;
+  }
+  
+  .subscription-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .youtube-button {
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .pay-now-button {
+    background-color: #00a4c6;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .footer-section p {
+    margin: 5px 0;
+  }
+  
+  .footer-section p strong {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+  

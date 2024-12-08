@@ -1,0 +1,11 @@
+.action{
+    height: 400px;
+    width: auto;
+    background-color: #00a4c6;
+    color: white;
+    margin: 10px auto;
+}
+.stack{
+    margin: 20px auto;
+    justify-content: center;
+}

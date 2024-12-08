@@ -1,0 +1,68 @@
+
+
+.App {
+  text-align: center;
+}
+
+
+.about-us {
+  max-width: 600px;
+  margin: 0 auto; 
+  padding: 20px;
+  background-color: #e0f3ef;
+  border-radius: 8px;
+  text-align: center;
+  opacity: 0; 
+  transform-origin: top; 
+  animation: fold-out 1s ease-out forwards; 
+}
+
+
+.center-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 60vh; 
+}
+
+
+@keyframes fold-out {
+  0% {
+    transform: scaleY(0); 
+    opacity: 0;
+  }
+  100% {
+    transform: scaleY(1); 
+    opacity: 1;
+  }
+}
+
+.about-us h2 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.about-us p {
+  color: #555;
+  font-size: 1rem;
+}
+.services{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+p{
+  font-size: large;
+  font-family: 'Times New Roman', Times, serif;
+}
+.team{
+  display: flex;
+  justify-content: space-evenly;
+}
+.reviews{
+  height: 600px;
+  width: auto;
+  background-color: #e0f3ef;
+}
+ 
